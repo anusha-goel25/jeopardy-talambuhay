@@ -3,64 +3,65 @@ import type { PlayerData, Question } from '$lib/index';
 const playerData: PlayerData[] = [];
 const TIME_LEFT = 8; // seconds
 const sortQuestions = (questions: { points: number; question: string; answer: string; imgSrc?: string; }[]) => questions.sort((a, b) => a.points - b.points).map(q => ({ ...q, answered: false, buzzers: [] as string[] }));
-const pastQuestions: Question[] = sortQuestions([
+const foodQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 
+            'What fruit is called the King of Fruits',
+        answer: 'Mangoes',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
+            'What drink is this?',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        answer: 'Masala Chai',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            '',
+        answer: '',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Which icecream chain is known for the extensive list of toppings which you can add to their icecreams?',
+        answer: 'Cold Stone Creamery',
     }
 ]);
 
-const presentQuestions: Question[] =
+const hobbiesQuestions: Question[] =
     sortQuestions([
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'What is Paramore\'s first album',
+    
+            answer: 'All We Know is Falling',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
+                'Who is this book by?',
             imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+            answer: 'Oscar Wilde',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
+            question: 'What type of paint is this?',
             imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            answer: 'gouache',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
+                'What company made this guitar?',
             imgSrc:
                 "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+            answer: 'Jackson',
         }
     ]);
-const futureQuestions: Question[] = sortQuestions([
+const goalsQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
@@ -74,16 +75,16 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
-        questions: pastQuestions
+        title: 'Food!!!',
+        questions: foodQuestions
     },
     {
-        title: 'My Present',
-        questions: presentQuestions
+        title: 'Hobbies',
+        questions: hobbiesQuestions
     },
     {
-        title: 'My Future',
-        questions: futureQuestions
+        title: 'Goals :D',
+        questions: goalsQuestions
     }
 ];
 
