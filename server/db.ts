@@ -8,24 +8,24 @@ const foodQuestions: Question[] = sortQuestions([
         points: 100,
         question: 
             'What fruit is called the King of Fruits',
-        answer: 'Mangoes',
+        answer: 'Mango',
     },
     {
         points: 200,
         question:
             'What drink is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Masala Chai',
+        imgSrc: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
+        answer: 'Chai',
     },
     {
         points: 300,
         question:
-            '',
-        answer: '',
+            'What type of coffee is made by steeping coffee grounds in cold or room temperature water?',
+        answer: 'Cold Brew',
     },
     {
         points: 400,
-        question: 'Which icecream chain is known for the extensive list of toppings which you can add to their icecreams?',
+        question: 'Which icecream chain is known for the extensive list of toppings?',
         answer: 'Cold Stone Creamery',
     }
 ]);
@@ -43,13 +43,13 @@ const hobbiesQuestions: Question[] =
             points: 100,
             question:
                 'Who is this book by?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
+            imgSrc: '/PictureofDorianGray.png',
             answer: 'Oscar Wilde',
         },
         {
             points: 300,
             question: 'What type of paint is this?',
-            imgSrc: '/programming_language.png',
+            imgSrc: 'https://marloesdevries.com/wp-content/uploads/2018/02/header_acrylagouache.jpg',
             answer: 'gouache',
         },
         {
@@ -57,7 +57,7 @@ const hobbiesQuestions: Question[] =
             question:
                 'What company made this guitar?',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
+                "https://media.guitarcenter.com/is/image/MMGS7/L81225000002000-00-2000x2000.jpg",
             answer: 'Jackson',
         }
     ]);
@@ -65,25 +65,25 @@ const goalsQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+            'What profession is this?',
         imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            "https://hips.hearstapps.com/hmg-prod/images/types-of-doctors-1600114658.jpg?crop=0.670xw:1.00xh;0.0553xw,0&resize=640:*",
+        answer: 'Doctor',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Food!!!',
+        title: 'Anusha\'s Fav Foods!!!',
         questions: foodQuestions
     },
     {
-        title: 'Hobbies',
+        title: 'Anusha\'s Hobbies',
         questions: hobbiesQuestions
     },
     {
-        title: 'Goals :D',
+        title: 'Anusha\'s Goals :D',
         questions: goalsQuestions
     }
 ];

@@ -148,12 +148,12 @@
 {/if}
 
 <style>
-	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
+	@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 
 	:root {
 		--theme-color: #060ce9;
 		--point-color: goldenrod;
-		font-family: 'ITC_ Korinna', sans-serif;
+		font-family: 'Delius Swash Caps', cursive;
 		background-color: black;
 	}
 
