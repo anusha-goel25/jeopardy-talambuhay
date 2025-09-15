@@ -151,8 +151,8 @@
 	@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 
 	:root {
-		--theme-color: #060ce9;
-		--point-color: goldenrod;
+		--theme-color: #f263b7;
+		--point-color: rgb(255, 255, 255);
 		font-family: 'Delius Swash Caps', cursive;
 		background-color: black;
 	}
