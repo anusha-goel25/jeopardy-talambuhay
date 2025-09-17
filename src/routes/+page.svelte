@@ -141,7 +141,9 @@
 			{/each}
 		</div>
 	{/each}
+	
 </div>
+<img src = "https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-pink-macarons-png-sticker-png-image_16179772.png" alt="macarons">
 
 {#if selectedQuestion}
 		<QuestionCard {selectedQuestion} {name} {socket} {backToBoard} />
@@ -154,7 +156,7 @@
 		--theme-color: #f263b7;
 		--point-color: rgb(255, 255, 255);
 		font-family: 'Delius Swash Caps', cursive;
-		background-color: black;
+		background-color: rgb(0, 0, 0);
 	}
 
 	:global(input) {

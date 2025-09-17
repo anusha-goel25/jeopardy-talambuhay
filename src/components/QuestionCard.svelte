@@ -215,7 +215,7 @@
 	.modal-content {
 		background: var(--theme-color);
 		color: white;
-		padding: 2rem;
+		padding: 0rem;
 		border-radius: 10px;
 		max-width: 800px;
 		text-align: center;

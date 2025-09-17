@@ -25,7 +25,7 @@ const foodQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Which icecream chain is known for the extensive list of toppings?',
+        question: 'Which icecream chain is known for the extensive list of toppings and create-your-own model? The brand was also founded in Tempe, Arizona 1988.',
         answer: 'Cold Stone Creamery',
     }
 ]);
@@ -61,7 +61,8 @@ const hobbiesQuestions: Question[] =
             answer: 'Jackson',
         }
     ]);
-const goalsQuestions: Question[] = sortQuestions([
+const goalsQuestions: Question[] = 
+sortQuestions([
     {
         points: 100,
         question:
@@ -69,8 +70,31 @@ const goalsQuestions: Question[] = sortQuestions([
         imgSrc:
             "https://hips.hearstapps.com/hmg-prod/images/types-of-doctors-1600114658.jpg?crop=0.670xw:1.00xh;0.0553xw,0&resize=640:*",
         answer: 'Doctor',
-    }
+    },
+    {
+        points: 200,
+        question:
+            'What is the highest SAT score that one can get?',
+       
+        answer: '1600',
+    },
+    {
+        points: 300,
+        question:
+            'What music festival is held annually at Governer\'s island NY and has had acts like Olivia Rodrigo, Conan Gray, and Tyler the Creator?',
+       
+        answer: 'Governer\'s Ball',
+    },
+    {
+        points: 400,
+        question:
+            'What country is the town of Gwalior in? This town a popular tourist destination with a famous Red Fort and recently got its own domestic airport.',
+        imgSrc:
+            "https://s3.india.com/wp-content/uploads/2024/04/Feature-Image-_-gwalior-3.jpg?impolicy=Medium_Widthonly&w=350&h=263",
+        answer: 'India',
+    },
 ]);
+
 
 
 const categories = [
@@ -83,7 +107,7 @@ const categories = [
         questions: hobbiesQuestions
     },
     {
-        title: 'Anusha\'s Goals :D',
+        title: 'Anusha\'s Goals :D and Future',
         questions: goalsQuestions
     }
 ];
