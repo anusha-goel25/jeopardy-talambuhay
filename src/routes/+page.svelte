@@ -143,7 +143,7 @@
 	{/each}
 	
 </div>
-<img src = "https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-pink-macarons-png-sticker-png-image_16179772.png" alt="macarons">
+<img src = "https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-pink-macarons-png-sticker-png-image_16179772.png" alt="macarons">,
 
 {#if selectedQuestion}
 		<QuestionCard {selectedQuestion} {name} {socket} {backToBoard} />
@@ -196,7 +196,7 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
-		padding: 2rem;
+		padding: 0rem;
 	}
 
 	.category {
@@ -243,4 +243,5 @@
 		background-color: var(--theme-color);
 		color: var(--point-color);
 	}
+	
 </style>

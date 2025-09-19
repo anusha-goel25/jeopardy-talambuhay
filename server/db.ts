@@ -33,7 +33,7 @@ const foodQuestions: Question[] = sortQuestions([
 const hobbiesQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 300,
             question:
                 'What is Paramore\'s first album',
     
@@ -47,7 +47,7 @@ const hobbiesQuestions: Question[] =
             answer: 'Oscar Wilde',
         },
         {
-            points: 300,
+            points: 200,
             question: 'What type of paint is this?',
             imgSrc: 'https://marloesdevries.com/wp-content/uploads/2018/02/header_acrylagouache.jpg',
             answer: 'gouache',
@@ -81,9 +81,9 @@ sortQuestions([
     {
         points: 300,
         question:
-            'What music festival is held annually at Governer\'s island NY and has had acts like Olivia Rodrigo, Conan Gray, and Tyler the Creator?',
+            'What music festival is held annually at an island in NY and has had acts like Olivia Rodrigo, Conan Gray, and Tyler the Creator?',
        
-        answer: 'Governer\'s Ball',
+        answer: 'Governor\'s Ball',
     },
     {
         points: 400,
